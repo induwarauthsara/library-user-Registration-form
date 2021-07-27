@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Registration</title>
+    <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+    <div class="box">
+        <center>
+            <h2>Enter User Informations</h2>
+        </center>
+
+        <form action="register.php" method="POST">
+            <div class="fname">
+                <label for="fname">Fisrt Name</label><br />
+                <input type="text" name="fname" placeholder="Type first name here" required />
+            </div>
+
+            <div class="lname">
+                <label for="lname">Last Name</label><br />
+                <input type="text" name="lname" placeholder="Type last name here" required />
+            </div>
+
+            <div class="contact">
+                <label for="contact">Contact Number</label><br />
+                <input type="text" name="contact" placeholder="Type contact number here" required />
+            </div>
+
+            <div class="address">
+                <label for="adress">Address</label><br />
+                <textarea name="adress" placeholder="Type user Address here" required></textarea>
+            </div>
+
+            <div class="email">
+                <label for="email">Email Address</label><br />
+                <input type="text" name="email" placeholder="Type email address here" required />
+            </div>
+
+            <div class="type">
+                <label for="type">User Type</label><br />
+                <div class="radio">
+                    <div class="r">
+                        <input type="radio" name="type" id="school" required />
+                        <label for="school">School</label>
+                    </div>
+                    <div class="r">
+                        <input type="radio" name="type" id="university" />
+                        <label for="university">University</label>
+                    </div>
+                    <div class="r">
+                        <input type="radio" name="type" id="employee" />
+                        <label for="employee">Employee</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="payment">
+                <label for="payment">Payment Method</label><br />
+                <select name="payment" required>
+            <option value="full">Full Payment</option>
+            <option value="hallf">Half Payment</option>
+          </select>
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="submit" id="submit" />
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
