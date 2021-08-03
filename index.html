@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Library Registration</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css" />
 </head>
 
@@ -19,22 +20,20 @@
             <div class="firstname">
                 <label for="firstname">Fisrt Name</label><br />
                 <input type="text" name="firstname" class="firstname" id="firstname" placeholder="Type first name here" />
-                <p id="firstname-error"></p>
                 <small></small>
             </div>
 
             <div class="lastname">
                 <label for="lastname">Last Name</label><br />
                 <input type="text" name="lastname" class="lastname" id="lastname" placeholder="Type last name here" />
-                <div id="lastname-error"></div>
                 <small></small>
             </div>
 
             <div class="contact">
                 <label for="contact">Contact Number</label><br />
-                <input type="text" name="contact" class="contact" id="contact" placeholder="Type contact number here" />
-                <div id="contact-error"></div>
-                <small></small>
+                <input type="text" name="contact" class="contact" id="contact" placeholder="Type number here" />
+
+                <small id="contact-error"></small>
 
             </div>
 
@@ -48,7 +47,6 @@
             <div class="email">
                 <label for="email">Email Address</label><br />
                 <input type="email" name="email" class="email" id="email" placeholder="Type email address here" />
-                <div id="email-error"></div>
                 <small></small>
             </div>
 
@@ -67,8 +65,6 @@
                         <input type="radio" name="type" id="radio-employee" value="employee" />
                         <label for="employee" class="radiotext">Employee</label>
                     </div>
-
-
                 </div>
                 <small id="type-error"></small>
             </div>
@@ -79,18 +75,16 @@
                     <option value="select-payment" selected>Select Payment Method</option>
                     <option value="Full Payment" id="full-payment">Full Payment</option>
                     <option value="Hallf Payment" id="hallf-payment">Half Payment</option>
-          </select> <br>
+                </select>
                 <small id="payment-error"></small>
-
             </div>
 
             <div class="submit">
                 <input type="submit" value="Submit" class="button"></input>
-
-
             </div>
         </form>
     </div>
+
     <script src="script/script.js "></script>
 
 </body>
