@@ -15,63 +15,84 @@
             <h2>Enter User Informations</h2>
         </center>
 
-        <form action="register.php" method="POST">
-            <div class="fname">
-                <label for="fname">Fisrt Name</label><br />
-                <input type="text" name="fname" placeholder="Type first name here" required />
+        <form action="submit.php" method="POST" id="form">
+            <div class="firstname">
+                <label for="firstname">Fisrt Name</label><br />
+                <input type="text" name="firstname" class="firstname" id="firstname" placeholder="Type first name here" />
+                <p id="firstname-error"></p>
+                <small></small>
             </div>
 
-            <div class="lname">
-                <label for="lname">Last Name</label><br />
-                <input type="text" name="lname" placeholder="Type last name here" required />
+            <div class="lastname">
+                <label for="lastname">Last Name</label><br />
+                <input type="text" name="lastname" class="lastname" id="lastname" placeholder="Type last name here" />
+                <div id="lastname-error"></div>
+                <small></small>
             </div>
 
             <div class="contact">
                 <label for="contact">Contact Number</label><br />
-                <input type="text" name="contact" placeholder="Type contact number here" required />
+                <input type="text" name="contact" class="contact" id="contact" placeholder="Type contact number here" />
+                <div id="contact-error"></div>
+                <small></small>
+
             </div>
 
             <div class="address">
                 <label for="adress">Address</label><br />
-                <textarea name="adress" placeholder="Type user Address here" required></textarea>
+                <textarea name="adress" class="address" id="address" placeholder="Type user Address here"></textarea>
+                <div id="address-error"></div>
+                <small></small>
             </div>
 
             <div class="email">
                 <label for="email">Email Address</label><br />
-                <input type="text" name="email" placeholder="Type email address here" required />
+                <input type="email" name="email" class="email" id="email" placeholder="Type email address here" />
+                <div id="email-error"></div>
+                <small></small>
             </div>
 
             <div class="type">
-                <label for="type">User Type</label><br />
-                <div class="radio">
-                    <div class="r">
-                        <input type="radio" name="type" id="school" required />
-                        <label for="school">School</label>
+                <label for="type" id="test">User Type</label><br />
+                <div class="radio" class="type" id="type">
+                    <div class="radio-block">
+                        <input type="radio" name="type" id="radio-school" value="school" />
+                        <label for="school" class="radiotext">School</label>
                     </div>
-                    <div class="r">
-                        <input type="radio" name="type" id="university" />
-                        <label for="university">University</label>
+                    <div class="radio-block">
+                        <input type="radio" name="type" id="radio-university" value="university" />
+                        <label for="university" class="radiotext">University</label>
                     </div>
-                    <div class="r">
-                        <input type="radio" name="type" id="employee" />
-                        <label for="employee">Employee</label>
+                    <div class="radio-block">
+                        <input type="radio" name="type" id="radio-employee" value="employee" />
+                        <label for="employee" class="radiotext">Employee</label>
                     </div>
+
+
                 </div>
+                <small id="type-error"></small>
             </div>
 
             <div class="payment">
                 <label for="payment">Payment Method</label><br />
-                <select name="payment" required>
-            <option value="full">Full Payment</option>
-            <option value="hallf">Half Payment</option>
-          </select>
+                <select name="payment" class="payment" id="paymentt">
+                    <option value="select-payment" selected>Select Payment Method</option>
+                    <option value="Full Payment" id="full-payment">Full Payment</option>
+                    <option value="Hallf Payment" id="hallf-payment">Half Payment</option>
+          </select> <br>
+                <small id="payment-error"></small>
+
             </div>
 
             <div class="submit">
-                <input type="submit" value="submit" id="submit" />
+                <input type="submit" value="Submit" class="button"></input>
+
+
             </div>
         </form>
     </div>
+    <script src="script/script.js "></script>
+
 </body>
 
 </html>
