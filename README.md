@@ -53,7 +53,6 @@ So,
 
 
 ![Invalid Mail](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/invalid%20mail.JPG)
-(invalid mail.JPG)
     - Valid Mail:
     
     
