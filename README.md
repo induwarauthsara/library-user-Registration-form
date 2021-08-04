@@ -18,14 +18,14 @@ git clone https://github.com/induwarauthsara/library-user-Registration-form.git
 
 
 ## Used Languages & Methods
-- **HTML** for build web page_
-- Pure **CSS** for Style the web page_
+- **HTML** for build web page
+- Pure **CSS** for Style the web page
     - Mobile Responsive
 - **JavaScript** for Form [Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/main/README.md#javascript-validations)
     - JavaScript Variables
     - JavaScript Objects
     - JavaScript Arrays
-    - JavaScript Callback Functions_
+    - JavaScript Callback Functions
 - **PHP** for small Backend
     - POST Method
 
@@ -39,20 +39,30 @@ So,
 ![Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/validate.png)
 
 ### 2. Contact Number Validate
-- **Length Validate** (Must include 10 Numbers)_
+- **Length Validate** (Must include 10 Numbers)
+
 ![Contact Number Length Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/main/images/contact%20number%20length%20validate.JPG)
 
-- **Character Validate** (Only Accept Numbers)_
+- **Character Validate** (Only Accept Numbers)
+
+
 ![Contact Number Character Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/contact%20number%20character%20validate.JPG)
+
 ### 4. Email Validate
 - Input Format must be : xxxxx@xxxx.xx
+
+
 ![Invalid Mail](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/invalid%20mail.JPG)
 (invalid mail.JPG)
     - Valid Mail:
+    
+    
 ![Valid Mail](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/valid%20mail.JPG)
 
 ### 5. User Type Validate
 - one user type must tick. can't leave empty
+
+
 ![Select Type](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/select%20type.JPG)
 
 ### 6. Payment Method Validate
