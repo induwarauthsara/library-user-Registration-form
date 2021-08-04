@@ -8,7 +8,7 @@ Download & Upload all file to server index
 
 Download git:
 ```
-https://github.com/induwarauthsara/library-user-Registration-form.git
+git clone https://github.com/induwarauthsara/library-user-Registration-form.git
 ```
 ## Features
 - Every Inputs [Validate with JavaScript](https://github.com/induwarauthsara/library-user-Registration-form/blob/main/README.md#javascript-validations)
@@ -18,14 +18,14 @@ https://github.com/induwarauthsara/library-user-Registration-form.git
 
 
 ## Used Languages & Methods
-- **HTML** for build web page
-- Pure **CSS** for Style the web page
+- **HTML** for build web page__
+- Pure **CSS** for Style the web page__
     - Mobile Responsive
 - **JavaScript** for Form [Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/main/README.md#javascript-validations)
     - JavaScript Variables
     - JavaScript Objects
     - JavaScript Arrays
-    - JavaScript Callback Functions
+    - JavaScript Callback Functions__
 - **PHP** for small Backend
     - POST Method
 
@@ -39,10 +39,10 @@ So,
 ![Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/validate.png)
 
 ### 2. Contact Number Validate
-- **Length Validate** (Must include 10 Numbers)
+- **Length Validate** (Must include 10 Numbers)__
 ![Contact Number Length Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/main/images/contact%20number%20length%20validate.JPG)
 
-- **Character Validate** (Only Accept Numbers)
+- **Character Validate** (Only Accept Numbers)__
 ![Contact Number Character Validate](https://github.com/induwarauthsara/library-user-Registration-form/blob/4e9f66e7721e9dc306c42f1c18fbcbcb0e52f060/images/contact%20number%20character%20validate.JPG)
 ### 4. Email Validate
 - Input Format must be : xxxxx@xxxx.xx
