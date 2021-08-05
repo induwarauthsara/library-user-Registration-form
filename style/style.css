@@ -124,21 +124,15 @@ body {
 }
 
 @media only screen and (max-width: 1080px) {
-    .box form .radio {
-        width: 90%;
-    }
+    .box form .radio {width: 90%;}
 }
 
 @media only screen and (max-width: 965px) {
-    .box form .radio {
-        width: 100%;
-    }
+    .box form .radio {width: 100%;}
 }
 
 @media only screen and (max-width: 878px) {
-    .box form {
-        grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;
-    }
+    .box form {grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;}
     .box form .radio {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -148,9 +142,7 @@ body {
 }
 
 @media only screen and (max-width: 808px) {
-    .box form {
-        grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;
-    }
+    .box form {grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;}
     .box form .radio {
         display: -webkit-box;
         display: -ms-flexbox;
