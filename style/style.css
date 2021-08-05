@@ -51,9 +51,7 @@ body {
     font-size: 14pt;
 }
 
-.box form input,
-.box form textarea,
-.box form select {
+.box form input, .box form textarea, .box form select {
     margin: 5px 0;
     font-size: 12pt;
     padding: 5px 5px 5px 10px;
@@ -116,9 +114,7 @@ body {
 
 .payment {grid-area: payment;}
 
-.submit {grid-area: submit;
-    margin: auto;}
-
+.submit {grid-area: submit;}
 
 /* ================================================= */
 /*               Mobile Responsive                   */
