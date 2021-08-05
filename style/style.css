@@ -102,38 +102,22 @@ body {
 /*             Assign Name to Grid                   */
 /* ================================================= */
 
-.firstname {
-    grid-area: firstname;
-}
+.firstname {grid-area: firstname; }
 
-.lastname {
-    grid-area: lastname;
-}
+.lastname {grid-area: lastname;}
 
-.contact {
-    grid-area: contact;
-}
+.contact {grid-area: contact;}
 
-.address {
-    grid-area: address;
-}
+.address {grid-area: address;}
 
-.email {
-    grid-area: email;
-}
+.email {grid-area: email;}
 
-.type {
-    grid-area: type;
-}
+.type {grid-area: type;}
 
-.payment {
-    grid-area: payment;
-}
+.payment {grid-area: payment;}
 
-.submit {
-    grid-area: submit;
-    margin: auto;
-}
+.submit {grid-area: submit;
+    margin: auto;}
 
 
 /* ================================================= */
@@ -163,7 +147,6 @@ body {
         grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;
     }
     .box form .radio {
-        width: 100%;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
