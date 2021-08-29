@@ -80,6 +80,10 @@ body {
     color: rgb(187, 0, 0);
     display: block;
 }
+.box .submit {
+    justify-content: center;
+    display: flex;
+}
 
 .box .submit .button {
     background: rgb(164, 0, 230);
@@ -90,6 +94,7 @@ body {
     padding: 8px 30px;
     font-weight: bold;
     border: 3px solid white;
+    width : 100%;
 }
 
 
@@ -110,7 +115,7 @@ body {
 
 .payment {grid-area: payment;}
 
-.submit {grid-area: submit;}
+{grid-area: submit;}
 
 /* ================================================= */
 /*               Mobile Responsive                   */
