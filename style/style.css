@@ -1,6 +1,11 @@
 /* ================================================= */
+
+
 /*                 Main Style                       */
+
+
 /* ================================================= */
+
 * {
     padding: 0;
     margin: 0;
@@ -10,8 +15,13 @@
 
 
 /* ================================================= */
+
+
 /*             Style the Content                     */
+
+
 /* ================================================= */
+
 body {
     background: rgb(164, 0, 230);
     background: linear-gradient( 90deg, rgba(164, 0, 230, 1) 0%, rgba(255, 59, 59, 1) 100%);
@@ -48,7 +58,9 @@ body {
     font-size: 14pt;
 }
 
-.box form input, .box form textarea, .box form select {
+.box form input,
+.box form textarea,
+.box form select {
     margin: 5px 0;
     font-size: 12pt;
     padding: 5px 5px 5px 10px;
@@ -80,10 +92,6 @@ body {
     color: rgb(187, 0, 0);
     display: block;
 }
-.box .submit {
-    justify-content: center;
-    display: flex;
-}
 
 .box .submit .button {
     background: rgb(164, 0, 230);
@@ -94,46 +102,83 @@ body {
     padding: 8px 30px;
     font-weight: bold;
     border: 3px solid white;
-    width : 100%;
+    width: 100%;
 }
 
 
 /* ================================================= */
+
+
 /*             Assign Name to Grid                   */
-/* ================================================= */
-.firstname {grid-area: firstname; }
 
-.lastname {grid-area: lastname;}
-
-.contact {grid-area: contact;}
-
-.address {grid-area: address;}
-
-.email {grid-area: email;}
-
-.type {grid-area: type;}
-
-.payment {grid-area: payment;}
-
-{grid-area: submit;}
 
 /* ================================================= */
+
+.firstname {
+    grid-area: firstname;
+}
+
+.lastname {
+    grid-area: lastname;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.address {
+    grid-area: address;
+}
+
+.email {
+    grid-area: email;
+}
+
+.type {
+    grid-area: type;
+}
+
+.payment {
+    grid-area: payment;
+}
+
+.submit {
+    grid-area: submit;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* ================================================= */
+
+
 /*               Mobile Responsive                   */
+
+
 /* ================================================= */
+
 @media only screen and (max-width: 1350px) {
-    .box form .radio {width: 80%;}
+    .box form .radio {
+        width: 80%;
+    }
 }
 
 @media only screen and (max-width: 1080px) {
-    .box form .radio {width: 90%;}
+    .box form .radio {
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 965px) {
-    .box form .radio {width: 100%;}
+    .box form .radio {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 878px) {
-    .box form {grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;}
+    .box form {
+        grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;
+    }
     .box form .radio {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -143,7 +188,9 @@ body {
 }
 
 @media only screen and (max-width: 808px) {
-    .box form {grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;}
+    .box form {
+        grid-template-rows: 1fr 1fr 1fr 1fr 0.01fr;
+    }
     .box form .radio {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -152,8 +199,10 @@ body {
         justify-content: space-around;
         width: 80%;
     }
-    .box form .radio .radio-block {font-size: 19px;
-        display: block;}
+    .box form .radio .radio-block {
+        font-size: 19px;
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 720px) {
@@ -176,5 +225,7 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-    .box form {width: 100%;}
+    .box form {
+        width: 100%;
+    }
 }
