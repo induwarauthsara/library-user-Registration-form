@@ -10,7 +10,7 @@
 </head>
 <div class="content">
     <center>
-        <h1><u>Welcome to SPARK Library</u></h1>
+        <h1><u>Welcome to CyberTech LK Library</u></h1>
     </center>
     <?php 
 //variables    
@@ -23,7 +23,7 @@ $address=$_POST["adress"];
 //massege
 echo "<b> hello, ".$name."! <br> <br></b>";
 echo "We are sorry. Our Library System is still Under Construction. 
- But we recieved your <b>".$payment."</b>to our Bank Account. We post your printed Membership card to <b>".$address . " </b>Address.<br>We will contact you as soon as via Your <b>".$number."</b>Number. ";
+ But we recieved your <b>".$payment."</b> to our Bank Account. We post your printed Membership card to <b>".$address . " </b> Address.<br>We will contact you as soon as via Your <b>".$number."</b> Number. ";
  ?>
  
  <br><br>Thank You. <br>
