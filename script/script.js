@@ -8,6 +8,7 @@ function showMessage(input, message, type) {
     return type;
 }
 
+// Functions
 function showError(input, message) {
     return showMessage(input, message, false);
 }
@@ -127,6 +128,7 @@ form.addEventListener("submit", function(event) {
         paymentValid,
     ];
 
+    // Submit Form
     if (inputList.every(Boolean)) {
         alert("User Added Successfully");
         form.submit();
