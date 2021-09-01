@@ -95,16 +95,6 @@ var x = "Developed by <b> <span style=color:tomato;> Induwara Uthsara </span> </
 var year = new Date().getFullYear();
 var credit = document.getElementById("credit");
 credit.innerHTML = x + year;
-credit.style.background="black";
-credit.style.color="white";
-credit.style.LineHeight="15";
-credit.style.padding="5";
-credit.style.textAlign="center";
-credit.style.position="fixed";
-credit.style.display="block";
-credit.style.width="100%";
-credit.style.bottom="0";
-credit.style.margin="0";
 
 
 // Access the form
